@@ -7,12 +7,11 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/tv_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:editable="true"
         android:text="Text will appear here..."
         android:textSize="20sp" />
 
